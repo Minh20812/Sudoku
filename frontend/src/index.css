@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+  transition: box-shadow 0.3s ease;
+}
+
+canvas:focus {
+  box-shadow: 0 0 15px 2px #00bcd4; /* Hiệu ứng khi canvas được focus */
+  outline: none;
+}
